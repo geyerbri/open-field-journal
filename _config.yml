@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Anthro in the Light
+title:            Anthropology in the Open
 tagline:          'Open Science'
 description:      'Brian Geyer&#39;s preliminary analyses of his collected dissertation data, from the field.'
 url:          	  https://geyerbri.github.io/open-field-journal
