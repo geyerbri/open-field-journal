@@ -2,14 +2,6 @@
 layout: post
 title: "Post: Standard"
 excerpt_separator: "<!--more-->"
-{% comment %}
-categories:
-  - Post Formats
-tags:
-  - Post Formats
-  - readability
-  - standard
-{% endcomment %}
 date: 2018-03-23
 ---
 
