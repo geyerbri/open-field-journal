@@ -6,7 +6,12 @@ highlighter:      rouge
 title:            Open Field Journal
 tagline:          'Open Science'
 description:      'Brian Geyer&#39;s preliminary analyses of his collected dissertation data, from the field.'
-#baseurl:          '/open-field-journal'
+url:          	  https://geyerbri.github.io/open-field-journal
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
 
 author:
   name:           'Brian Geyer'
