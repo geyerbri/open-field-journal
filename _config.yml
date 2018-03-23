@@ -3,23 +3,17 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            'Open Field Journal'
+title:            Open Field Journal
 tagline:          'Open Science'
 description:      'Brian Geyer&#39;s preliminary analyses of his collected dissertation data, from the field.'
-url:              https://fongandrew.github.io/hydeout
-baseurl:          # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+baseurl:          /open-field-journal
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           'Brian Geyer'
+  url:            https://twitter.com/GeyerBrian
 
 paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+  paginate_path:    '/blog/page:num'
 
 plugins:
   - jekyll-feed
@@ -29,9 +23,10 @@ plugins:
 # Custom vars
 version:            3.5.3
 sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+  sidebar_blog_link:  '/blog'   
+                                # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/fongandrew/hydeout
+  repo:             https://github.com/geyerbri/open-field-journal
