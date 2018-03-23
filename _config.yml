@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            'Kenya&#39;s Techies'
 tagline:          'Open Science Online'
-description:      'Open Field Notes'
+description:      'An Open Field Journal'
 url:          	  https://geyerbri.github.io/open-field-journal
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
