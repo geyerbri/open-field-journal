@@ -1,13 +1,11 @@
 ---
 layout: page
-title: About
+title: About Brian
 sidebar_link: true
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
+  I am an anthropology PhD candidate at Michigan State University.
 </p>
 
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
+This project is to contribute to the open science research movement. Because of limitations regarding participant confidentiality, I will _not_ be publishing all of my field notes and collected data, but instead will be working to write preliminary analyses, from the field, regarding my collected data.
