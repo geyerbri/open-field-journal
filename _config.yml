@@ -6,7 +6,6 @@ highlighter:      rouge
 title:            Open Field Journal
 tagline:          'A Jekyll theme'
 description:      'Brian Geyer's preliminary analyses of his collected dissertation data, from the field.'
-#url:              
 baseurl:          /open-field-journal
 
 author:
