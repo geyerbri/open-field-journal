@@ -3,8 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Open Field Journal
-tagline:          'Open Science'
+title:            Kenya&#39;s Techies
+tagline:          'Open Science Online'
 description:      'Brian Geyer&#39;s preliminary analyses of his ongoing dissertation data collection.'
 url:          	  https://geyerbri.github.io/open-field-journal
 baseurl:          # the optional subpath of your site, e.g. "/blog"
