@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Anthro Out in the Open
+title:            Open Anthro
 tagline:          'Open Science'
-description:      'Brian Geyer&#39;s preliminary analyses of his collected dissertation data, from the field.'
+description:      'Brian Geyer&#39;s preliminary analyses of his ongoing dissertation data collection.'
 url:          	  https://geyerbri.github.io/open-field-journal
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
