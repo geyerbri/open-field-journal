@@ -3,10 +3,10 @@
 # only main files contain this front matter, not partials.
 ---
 
+$heading-color: $blue;
+
 .container h1 	{
 	font-size: 3rem !important;
-}
-	
-$heading-color: $blue;
+}	
 
 @import "hydeout";
