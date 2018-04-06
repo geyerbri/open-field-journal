@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            'Anthro in the Open'
 tagline:          'An Open Field Journal'
-description:      'Analyses and observations while engaging with Kenya&#39;s technology professionals'
+description:      'Analyses and observations from engaging with Kenya&#39;s tech professionals'
 url:          	  https://geyerbri.github.io/open-field-journal
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
