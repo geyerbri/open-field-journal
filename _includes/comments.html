@@ -1,14 +1,6 @@
 {% if page.comments != false %}
   <section class="comments">
     <h2>Comments</h2>
-
-{% assign comments = site.data.comments | sort %}
-
-  {% assign commentData = comment[1] %}
-    <div>
-      {{ commentData.message }}</br>
-      From: {{ commentData.name }}</br>
-      {{ commentData.date | date_to_long_string }}
-    </div>
-</section>
+    {% include comments-new.html %}
+  </section>
 {% endif %}
