@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            'Anthro in the Open'
+title:            'No Mud Huts'
 tagline:          'An Open Field Journal'
-description:      'Analyses and observations from engaging with Kenya&#39;s tech professionals'
+description:      'an open journal from Kenya&#39;s tech industry'
 url:          	  https://geyerbri.github.io/open-field-journal
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
