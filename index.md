@@ -2,4 +2,4 @@
 layout: page
 title: Home
 ---
-Test Content
+This journal serves as a location for preliminary analyses and conclusions related to Brian Geyer's dissertation data collection phase in Nairobi and Kisumu, Kenya.
