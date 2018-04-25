@@ -85,14 +85,8 @@ input[type="text"], input[type="search"], input[type="submit"], button {
   border-radius: $border-radius;
   width: 50%;
   display: inline-block;
+  float: right;
 }
-
-textarea[type="text"] {
-  padding: $padding-v $padding-h;
-  border: 2px solid $border-color;
-  border-radius: $border-radius;
-  width: 100%;
- }
  
 button, input[type="submit"] {
   cursor: pointer;
@@ -109,4 +103,17 @@ button, input[type="submit"] {
     color: white;
     box-shadow: $default-box-shadow;
   }
+}
+
+*/ Custom CSS/*
+textarea[type="text"] {
+  padding: $padding-v $padding-h;
+  border: 2px solid $border-color;
+  border-radius: $border-radius;
+  width: 100%;
+  height: 60px;
+ }
+ 
+form:h3 {
+  float: left;
 }
