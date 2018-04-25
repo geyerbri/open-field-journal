@@ -1,8 +1,11 @@
 <section class="comments">
     <h2>Comments</h2>
-	{% if page.comments != false %}
-		{% include comments-new.html %}
-	{% else %}
+	{% if page.comments == false %}
+		
 		<p>Be the first to comment by submitting below!</p>
+	{% else %}
+
 	{% endif %}
+	
+	{% include comments-new.html %}
 </section>
