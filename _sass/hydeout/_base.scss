@@ -84,7 +84,7 @@ input[type="text"], input[type="search"], input[type="submit"], button {
   border: 2px solid $border-color;
   border-radius: $border-radius;
   width: 50%;
-  display: inline-block;
+  display: inline;
   float: right;
 }
  
@@ -114,6 +114,6 @@ textarea[type="text"] {
   height: 60px;
  }
  
-form:h3 {
+form h3 {
   float: left;
 }
