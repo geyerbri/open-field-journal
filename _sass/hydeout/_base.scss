@@ -83,6 +83,7 @@ input[type="text"], input[type="search"], input[type="submit"], button {
   padding: $padding-v $padding-h;
   border: 2px solid $border-color;
   border-radius: $border-radius;
+  width: 90%;
 }
 
 button, input[type="submit"] {
