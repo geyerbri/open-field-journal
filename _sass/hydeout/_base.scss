@@ -81,7 +81,7 @@ tbody tr:nth-child(odd) th {
 
 input[type="text"], input[type="search"], input[type="submit"], button {
   padding: $padding-v $padding-h;
-  border: 1px solid $border-color;
+  border: 2px solid $border-color;
   border-radius: $border-radius;
 }
 
