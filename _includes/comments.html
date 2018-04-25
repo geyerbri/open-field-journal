@@ -1,6 +1,8 @@
-{% if page.comments != false %}
-  <section class="comments">
+<section class="comments">
     <h2>Comments</h2>
-    {% include comments-new.html %}
-  </section>
-{% endif %}
+	{% if page.comments != false %}
+		{% include comments-new.html %}
+	{% else %}
+		<p>Be the first to comment by submitting below!</p>
+	{% endif %}
+</section>
