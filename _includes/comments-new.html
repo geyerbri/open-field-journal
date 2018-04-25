@@ -2,9 +2,25 @@
   <input name="options[redirect]" type="hidden" value="https://geyerbri.github.io/open-field-journal/redirect-page">
 
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label><h3>Name</h3><br><input name="fields[name]" type="text"></label><br><br><br>
-  <label><h3>GitHub Username</h3><br><input name="fields[github]" type="text"></label><br><br><br>
-  <label><h3>Email</h3><br><input name="fields[email]" type="text"></label><br><br><br>
+  <label>
+	<table>
+		<tr>
+			<td><h3>Name:</h3></td>
+			<td><input name="fields[name]" type="text"></label></td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td><label><h3>GitHub Username:</h3></td>
+			<td><input name="fields[github]" type="text"></label></td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td><label><h3>Email:</h3></td>
+			<td><input name="fields[email]" type="text"></label></td>
+		</tr>
+	</table>
   <label><h3>Comment</h3><br><textarea name="fields[message]"></textarea> Comment</label><br><br><br>
   <button type="submit">Go!</button>
 </form>
