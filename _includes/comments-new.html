@@ -1,10 +1,22 @@
 <form method="POST" action="https://api.staticman.net/v2/entry/geyerbri/open-field-journal/master/comments">
-  <input name="options[redirect]" type="hidden" value="http://nomudhuts.matrix.msu.edu/">
+  <input name="options[redirect]" type="hidden" value="http://nomudhuts.matrix.msu.edu/redirect-page">
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <input name="fields[name]" type="text" placeholder="Name">
-  <input name="fields[email]" type="text" placeholder="Email">
-  <input name="fields[github]" type="text" placeholder="GitHub username (optional)">
-  <input name="fields[website]" type="text" placeholder="Website (optional)"></td>
-  <label><textarea name="fields[message]" type="text" placeholder="Comment"></textarea>
-  <button type="submit">Submit!</button>
+	<table>
+		<tr>
+			<td><input name="fields[name]" type="text" placeholder="Name"></td>
+		</tr>
+		<tr>
+			<td><input name="fields[email]" type="text" placeholder="Email"></td>
+		</tr>
+		<tr>
+			<td><input name="fields[github]" type="text" placeholder="GitHub username (optional)"></td>
+		</tr>
+		<tr>
+			<td><input name="fields[website]" type="text" placeholder="Website (optional)"></td>
+		</tr>
+		<tr>
+			<td><label><textarea name="fields[message]" type="text" placeholder="Comment"></textarea></td>
+		</tr>
+	</table>	
+  <button type="submit"><span style="font-size:14px">Submit!</span></button>
 </form>
