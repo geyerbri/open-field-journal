@@ -1,11 +1,5 @@
 {% capture post_slug %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}{% endcapture %}
 
-<section class="comments">
-    <h2>Comments</h2>
-	{% if page.disable-comments != true}
-		{% if page.comments == false %}	
-			<p>Be the first to comment by submitting below!</p>
-		{% else %}
 			{% if site.data.comments[post_slug] %}
 				{% assign comments = site.data.comments[post_slug] | sort %}
 				
@@ -19,12 +13,31 @@
 					{% include partials/post-comment.html index=forloop.index email=email name=name url=url date=date message=message %}
 				{% endfor %}
 			{% endif %}		
-			<h3>Submit a comment:</h3>
-			{% include comments-new.html %}
-	
+
+<section class="comments">
+    <h2>Comments</h2>
+	{% if page.disable-comments != true}
+		{% if page.comments == false %}	
+			<p>Be the first to comment by submitting below!</p>
+		{% else %}
+			<div class="comment__content-wrapper">
+				<h3 class="comment__author">
+					{% if (include.url) and (include.url != '@url') %}
+						<a rel="nofollow" href="{{ include.url }}">{{ include.name }}</a>
+					{% else %}
+						{{ include.name }}
+					{% endif %}
+				</h3>
+				<div class="comment__body">
+					{{ include.message | markdownify }}
+				</div>
+			</div>
+			<div class="submit-comment">
+				<h3>Submit a comment:</h3>
+				{% include comments-new.html %}
+			</div>
 	{% else %}
 		<p>Comments have been disabled on this post</p>
 	{% endif %}
-
 </section>
 
