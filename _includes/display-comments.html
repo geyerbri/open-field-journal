@@ -8,10 +8,9 @@
 		{{ include.name }}
 	{% endif %}
 {% if (include.github) %}
-	and {{ include.name }}'s <a rel="nofollow" href="https://github.com/{{ include.github }}" target="_blank">GitHub account</a>
+	(and {{ include.name }}'s <a rel="nofollow" href="https://github.com/{{ include.github }}" target="_blank">GitHub account</a>)
 	{% endif %}
 	</h3>
-{% endif %}
 <p class="comment-date">
 	{% if include.date %}
 		{% if include.index %}<a href="#comment{{ include.index }}">{% endif %}
