@@ -1,8 +1,5 @@
-{% capture post_slug %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}{% endcapture %}
-
 <form method="POST" action="https://api.staticman.net/v2/entry/geyerbri/open-field-journal/master">
-  <input name="options[redirect]" type="hidden" value="https://geyerbri.github.io/open-field-journal/redirect-page">
-
+  <input name="options[redirect]" type="hidden" value="http://nomudhuts.matrix.msu.edu/redirect-page">
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
 	<table>
 		<tr>
