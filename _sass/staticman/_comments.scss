@@ -1,6 +1,12 @@
 $avatar-size: 100px;
 $avatar-size-narrow: 50px;
 
+$breakpoints: (
+    'small': 320px,
+    'medium': 800px,
+    'large': 1280px
+);
+
 .comment {
 	margin-bottom: 80px;
 	line-height: 1.3;
