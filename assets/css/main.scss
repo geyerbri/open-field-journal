@@ -28,10 +28,6 @@ img.cc-license {
   clear: both;
 }
 
-p.cc-license {
-  font-size: .64rem;
-}
-
 @media (min-width: $large-breakpoint) {
 
   img.cc-license {
@@ -42,7 +38,7 @@ p.cc-license {
   }
   
   p.cc-license {
-    font-size: inherit;
+    font-size: .64rem;
   }
 }
 
