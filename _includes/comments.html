@@ -15,5 +15,9 @@
 			{% include display-comments.html index=forloop.index email=email name=name website=website github=github date=date message=message %}
 		{% endfor %}
 	{% endif %}
+	<div class="submit-comment">
+	<h3>Submit a comment:</h3>
+		{% include comments-new.html %}
+	</div>
 </section>
 
