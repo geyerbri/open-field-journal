@@ -7,4 +7,9 @@
 	font-size: 3rem !important;
 }
 	
+textarea[type="text"] {
+  border-radius: 30px;
+  height: 160px;
+ }
+	
 @import "hydeout";
