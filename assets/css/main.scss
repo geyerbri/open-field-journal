@@ -7,4 +7,12 @@
 	font-size: 3rem !important;
 }
 	
+textarea[type="text"] {
+  padding: $padding-v $padding-h;
+  border: 4px solid $border-color;
+  border-radius: 30px;
+  width: 100%;
+  height: 160px;
+}
+
 @import "hydeout";
