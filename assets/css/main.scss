@@ -16,20 +16,4 @@ textarea[type="text"] {
 padding: 35px;
 }
 
-#sidebar img {
-  border: 1px solid #fff;
-  border-radius: 0px;
-  margin-right: 8px;
-  clear: both;
-}
-
-@media (min-width: $large-breakpoint) {
-  #sidebar img {
-	border: 1px solid #fff;
-	border-radius: 0px;
-	margin-right: 8px;
-	float: left;
-  }
-}
-
 @import "hydeout";
