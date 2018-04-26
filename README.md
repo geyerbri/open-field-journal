@@ -1,11 +1,14 @@
-# Hydeout
+# No Mud Huts
+This is an open field journal. For now, the README for the site from which I have borrowed this Jekyll theme is below.
+
+## Hydeout
 
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
 theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
 
-![Desktop](/_screenshots/1.png?raw=true)
-<img alt="Mobile home page" src="/_screenshots/2.png?raw=true" width="300px" />
-<img alt="Mobile post page" src="/_screenshots/3.png?raw=true" width="300px" />
+![Desktop](https://github.com/fongandrew/hydeout/blob/master/_screenshots/1.png?raw=true)
+<img alt="Mobile home page" src="https://github.com/fongandrew/hydeout/blob/master/_screenshots/2.png?raw=true" width="300px" />
+<img alt="Mobile post page" src="https://github.com/fongandrew/hydeout/blob/master/_screenshots/3.png?raw=true" width="300px" />
 
 ### Usage
 
