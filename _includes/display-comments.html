@@ -3,11 +3,16 @@
 </div>
 <h3 class="comment-author">
 	{% if (include.github) %}
-		<a rel="nofollow" href="https://github.com/{{ include.github }}">{{ include.name }}</a>
+		<a rel="nofollow" href="https://github.com/{{ include.github }}" target="blank">{{ include.name }}</a>
 	{% else %}
 		{{ include.name }}
 	{% endif %}
 </h3>
+{% if (include.website) %}
+	<h3 class="comment-author">
+		<a rel="nofollow" href="{{ include.website }}" target="_blank">{{ include.name}}'s GitHub</a>
+	</h3>
+{% endif %}
 <p class="comment-date">
 	{% if include.date %}
 		{% if include.index %}<a href="#comment{{ include.index }}">{% endif %}
