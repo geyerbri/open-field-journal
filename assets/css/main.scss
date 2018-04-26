@@ -18,7 +18,7 @@ padding: 35px;
 
 @import "hydeout";
 
-#sidebar img {
+img.cc-license {
   border: 1px solid #fff;
   border-radius: 0px;
   margin-right: 8px;
@@ -28,12 +28,21 @@ padding: 35px;
   clear: both;
 }
 
+p.cc-license {
+  font-size: .64rem;
+}
+
 @media (min-width: $large-breakpoint) {
-  #sidebar img {
+
+  img.cc-license {
 	border: 1px solid #fff;
 	border-radius: 0px;
 	margin-right: 8px;
 	float: left;
+  }
+  
+  p.cc-license {
+    font-size: inherit;
   }
 }
 
