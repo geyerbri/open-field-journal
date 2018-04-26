@@ -1,3 +1,5 @@
+{% capture post_slug %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}{% endcapture %}
+
 <section class="comments">
     <h2>Comments</h2>
 	{% if page.disable-comments != true}
@@ -18,7 +20,6 @@
 				{% endfor %}
 			{% endif %}		
 			<h3>Submit a comment:</h3>
-			<br>
 			{% include comments-new.html %}
 	
 	{% else %}
