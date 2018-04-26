@@ -21,11 +21,12 @@ paginate:         5
 paginate_path:    /blog/page:num
                     # Or '/blog/page:num' if you want to move your index pages
 
- plugins:
+permalink:        /blog/:year/:month/:day/:title
+plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-permalink:        /blog/:year/:month/:day/:title
+
 # Custom vars
 version:            3.5.3
 sidebar_home_link:  true
