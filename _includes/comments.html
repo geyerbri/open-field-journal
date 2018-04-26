@@ -7,7 +7,11 @@
 		{% else %}
 			<div class="comment__content-wrapper">
 				<h3 class="comment-author">
+					{% if (include.website) and (include.website != '@url') %}
+						<a rel="nofollow" href="{{ include.website }}">{{ include.name }}</a>
+					{% else %}
 						{{ include.name }}
+					{% endif %}
 				</h3>
 				<div class="comment-body">
 					{{ include.message | markdownify }}
@@ -17,5 +21,6 @@
 				<h3>Submit a comment:</h3>
 				{% include comments-new.html %}
 			</div>
+		{% endif %}
 </section>
 
