@@ -79,11 +79,11 @@ tbody tr:nth-child(odd) th {
   background-color: $gray-1;
 }
 
-input[type="text"], input[type="search"], input[type="submit"], button {
+input[type="text"], input[type="search"], input[type="submit"],textarea[type="text"], button {
   padding: $padding-v $padding-h;
-  border: 2px solid $border-color;
+  border: 4px solid $border-color;
   border-radius: $border-radius;
-  width: 50%;
+  width: 100%;
   display: inline;
 }
  
@@ -106,10 +106,6 @@ button, input[type="submit"] {
 
 /* Custom CSS */
 textarea[type="text"] {
-  padding: $padding-v $padding-h;
-  border: 2px solid $border-color;
   border-radius: 30px;
-  width: 100%;
-  height: 160px;
  }
  
