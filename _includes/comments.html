@@ -2,25 +2,18 @@
 
 <section class="comments">
     <h2>Comments</h2>
-		{% if site.data.comments[post_slug] == false %}	
-			<p>Be the first to comment by submitting below!</p>
-		{% else %}
-			<div class="comment__content-wrapper">
-				<h3 class="comment-author">
-					{% if (include.website) and (include.website != '@url') %}
-						<a rel="nofollow" href="{{ include.website }}">{{ include.name }}</a>
-					{% else %}
-						{{ include.name }}
-					{% endif %}
-				</h3>
-				<div class="comment-body">
-					{{ include.message | markdownify }}
-				</div>
-			</div>
-			<div class="submit-comment">
-				<h3>Submit a comment:</h3>
-				{% include comments-new.html %}
-			</div>
-		{% endif %}
+	{% if site.data.comments[post_slug] %}
+		{% assign comments = site.data.comments[post_slug] | sort %}
+		{% for comment in comments %}
+			{% assign email = comment[1].email %}
+			{% assign name = comment[1].name %}
+			{% assign website = comment[1].website %}
+			{% assign github = comment[1].github %}
+			{% assign date = comment[1].date %}
+			{% assign message = comment[1].message %}
+			
+			{% include display-comment.html index=forloop.index email=email name=name website=website github=github date=date message=message %}
+		{% endfor %}
+	{% endif %}
 </section>
 
