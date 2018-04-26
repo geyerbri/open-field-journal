@@ -2,7 +2,7 @@
 
 <section class="comments">
     <h2>Comments</h2>
-	{% if post.disable_comments != true %}
+	{% if page.disable_comments != true %}
 		{% if site.comments[post_slug] == false %}	
 			<p>Be the first to comment by submitting below!</p>
 		{% else %}
