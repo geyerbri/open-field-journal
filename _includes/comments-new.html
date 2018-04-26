@@ -3,15 +3,15 @@
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
 	<table>
 		<tr>
-			<td><input name="fields[name]" type="text" placeholder="Name"></td>
-			<td><input name="fields[email]" type="text" placeholder="Email"></td>
-			<td><input name="fields[github]" type="text" placeholder="GitHub username (optional)"></td>
+			<td colspan="2"><input name="fields[name]" type="text" placeholder="Name"></td>
+			<td colspan="2"><input name="fields[email]" type="text" placeholder="Email"></td>
 		</tr>
 		<tr>
-			<td colspan="3"><input name="fields[website]" type="text" placeholder="Website (optional)"></td>
+			<td colspan="2"><input name="fields[github]" type="text" placeholder="GitHub username (optional)"></td>
+			<td colspan="2"><input name="fields[website]" type="text" placeholder="Website (optional)"></td>
 		</tr>
 		<tr>
-			<td colspan="3"><label><textarea name="fields[message]" type="text" placeholder="Comment"></textarea></td>
+			<td colspan="4"><label><textarea name="fields[message]" type="text" placeholder="Comment"></textarea></td>
 		</tr>
 	</table>	
   <button type="submit"><span style="font-size:14px">Submit!</span></button>
