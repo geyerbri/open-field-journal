@@ -1,3 +1,6 @@
+<div class="comment-avatar-wrapper">
+	<img class="comment__avatar" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=100">
+</div>
 <h3 class="comment-author">
 	{% if (include.github) %}
 		<a rel="nofollow" href="https://github.com/{{ include.github }}">{{ include.name }}</a>
@@ -12,6 +15,6 @@
 		{% if include.index %}</a>{% endif %}
 	{% endif %}
 </p>
-<div>
+<div class="comment-body">
 	{{ include.message | markdownify }}
 </div>
