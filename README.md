@@ -1,3 +1,6 @@
+#No Mud Huts
+This is an open field journal. For now, the README for the site from which I have borrowed this Jekyll theme is below.
+
 # Hydeout
 
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
