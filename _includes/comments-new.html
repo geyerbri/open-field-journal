@@ -1,18 +1,20 @@
 <form method="POST" action="https://api.staticman.net/v2/entry/geyerbri/open-field-journal/master/comments">
   <input name="options[redirect]" type="hidden" value="http://nomudhuts.matrix.msu.edu/redirect-page">
-  <input name="options[post_slug]" type="hidden" value="{{ page.slug }}">
-	<table>
-		<tr>
-			<td colspan="2"><input name="fields[name]" type="text" placeholder="Name"></td>
-			<td colspan="2"><input name="fields[email]" type="text" placeholder="Email"></td>
-		</tr>
-		<tr>
-			<td colspan="2"><input name="fields[github]" type="text" placeholder="GitHub username (optional)"></td>
-			<td colspan="2"><input name="fields[website]" type="text" placeholder="Website (optional)"></td>
-		</tr>
-		<tr>
-			<td colspan="4"><label><textarea name="fields[message]" type="text" placeholder="Comment"></textarea></td>
-		</tr>
-	</table>	
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <input type="hidden" name="options[parent]" value="{{ post_slug }}">
+  <input type="hidden" name="options[origin]" value="{{ site.url }}{{ page.url }}">
+  <table>
+	<tr>
+		<td colspan="2"><input name="fields[name]" type="text" placeholder="Name"></td>
+		<td colspan="2"><input name="fields[email]" type="text" placeholder="Email"></td>
+	</tr>
+	<tr>
+		<td colspan="2"><input name="fields[github]" type="text" placeholder="GitHub username (optional)"></td>
+		<td colspan="2"><input name="fields[website]" type="text" placeholder="Website (optional)"></td>
+	</tr>
+	<tr>
+		<td colspan="4"><label><textarea name="fields[message]" type="text" placeholder="Comment"></textarea></td>
+	</tr>
+  </table>	
   <button type="submit"><span style="font-size:14px">Submit!</span></button>
 </form>
