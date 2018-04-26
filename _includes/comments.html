@@ -1,19 +1,19 @@
 {% capture post_slug %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}{% endcapture %}
 <section class="comments">
     <h2>Comments</h2>
-	{% if post.disable-comments != true}
-		{% if post.comments == false %}	
+	{% if page.disable-comments != true}
+		{% if site.comments[post_slug] == false %}	
 			<p>Be the first to comment by submitting below!</p>
 		{% else %}
 			<div class="comment__content-wrapper">
-				<h3 class="comment__author">
-					{% if (include.url) and (include.url != '@url') %}
-						<a rel="nofollow" href="{{ include.url }}">{{ include.name }}</a>
+				<h3 class="comment-author">
+					{% if (include.website) and (include.website != '@url') %}
+						<a rel="nofollow" href="{{ include.website }}">{{ include.name }}</a>
 					{% else %}
 						{{ include.name }}
 					{% endif %}
 				</h3>
-				<div class="comment__body">
+				<div class="comment-body">
 					{{ include.message | markdownify }}
 				</div>
 			</div>
