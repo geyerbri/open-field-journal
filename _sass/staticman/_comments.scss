@@ -9,7 +9,7 @@ $avatar-size-narrow: 50px;
 
 .comment-content-wrapper {
 	padding-left: $avatar-size + 20px;
-
+}
 
 .comment-author {
 	font-size: 24px;
@@ -34,17 +34,19 @@ $avatar-size-narrow: 50px;
 }
 
 .comment-body {
-	margin-top: 20px;
-}
+	* + * {
+		margin-top: 20px;
+	}
 
-.comment-body.highlight {
-	font-size: 14px;
-	padding: 20px;
-}
+	.highlight {
+		font-size: 14px;
+		padding: 20px;
+	}
 
-.comment-body p > code {
+	p > code {
 		font-family: "Monaco","Consolas","Menlo",monospace;
     background-color: #eeeee5;
     font-size: 0.75em;
     padding: 5px 8px;
+	}
 }
