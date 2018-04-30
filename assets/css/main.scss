@@ -59,28 +59,54 @@ $avatar-size-narrow: 50px;
 	position: relative;
 }
 
-.comment-content-wrapper {
-	padding-left: $avatar-size + 20px;
+.comment__content-wrapper {
+	padding-left: $avatar-size-narrow + 20px;
+
+	@include media(min-width: $large-breakpoint) {
+		padding-left: $avatar-size + 20px;		
+	}
 }
 
-.comment-date {
+.comment__author {
+	font-size: 24px;
+}
+
+.comment__date {
+	opacity: 0.6;
 	margin: 5px 0 15px 0;
 	font-size: 0.8em;
 }
 
-.comment-avatar-wrapper {
+.comment__avatar-wrapper {
 	width: $avatar-size-narrow;
+	position: absolute;
 	top: 0;
 	left: 0;
+
+	@include media(min-width: $large-breakpoint) {
+		width: $avatar-size;
+	}
 }
 
-.comment-avatar {
+.comment__avatar {
 	border-radius: 50%;
 	width: 100%;
 }
 
-.comment-body {
+.comment__body {
+	* + * {
+		margin-top: 20px;
+	}
+
+	.highlight {
+		font-size: 14px;
+		padding: 20px;
+	}
+
+	p > code {
+		font-family: "Monaco","Consolas","Menlo",monospace;
+    background-color: #eeeee5;
     font-size: 0.75em;
     padding: 5px 8px;
-	margin-top: 20px;
+	}
 }
