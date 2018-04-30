@@ -65,8 +65,9 @@ $avatar-size-narrow: 50px;
 }
 
 @media (min-width: $large-breakpoint) {
+  /* custom */
   figure img {
-    margin-bottom: 1em;
+    margin-bottom: .5rem !important;
   }
 
   figcaption {
@@ -84,6 +85,7 @@ $avatar-size-narrow: 50px;
 	clear: none;
   }
   
+  /* from eduardoboucas.github.io */
   .cc-license {
     font-size: .64rem;
   }
