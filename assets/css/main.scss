@@ -65,6 +65,9 @@ $avatar-size-narrow: 50px;
 }
 
 @media (min-width: $large-breakpoint) {
+  figure img {
+    margin-bottom: 1em;
+  }
 
   figcaption {
     font-size: small !important;

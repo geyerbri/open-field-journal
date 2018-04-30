@@ -7,6 +7,6 @@ title: Home
 <figcaption>
 iHub's Workspace at their main offices in Nairobi. Image via <a target="_blank" href="https://twitter.com/iHub/status/915549223030059008" >Twitter</a>.</figcaption>
 </figure>
-## No Mud Huts: 
+## No Mud Huts 
 
-### An open anthropological field journal from Kenya's tech industry
+### One American anthropologist's engagement with Kenya's technologists.
