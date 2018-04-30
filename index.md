@@ -9,4 +9,4 @@ iHub's Workspace at their main offices in Nairobi. Image via <a target="_blank" 
 </figure>
 ## No Mud Huts 
 
-### One American anthropologist's engagement with Kenya's technologists.
+### One anthropologist's engagement with Kenya's tech industry professionals.
