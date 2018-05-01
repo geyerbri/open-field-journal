@@ -121,7 +121,6 @@ $avatar-size-narrow: 50px;
     .site-title {
       font-size: 3rem !important;
 	  display: block !important;
-	  width: $sidebar-width;
 
       a { color: white; }
       .back-arrow { display: none; }
@@ -129,6 +128,8 @@ $avatar-size-narrow: 50px;
 
     p.lead, header ~ * {
       display: block !important;
+  	  width: $sidebar-width;
+
     }
 
     header ~ nav {
