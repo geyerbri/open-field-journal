@@ -95,6 +95,10 @@ $avatar-size-narrow: 50px;
 	overflow: auto;
   }
   
+  p header {
+    margin-bottom: 2rem !important;
+  }
+  
   /* from eduardoboucas.github.io */
   .cc-license {
     font-size: .64rem;
@@ -114,25 +118,5 @@ $avatar-size-narrow: 50px;
 	top: 0;
 	left: 0;
   }
-  
-  /* reproduced from hydeout  
-  #sidebar {
-		
-    .site-title {
-      font-size: 3rem !important;
-	  display: block !important;
-
-      a { color: white; }
-      .back-arrow { display: none; }
-    }
-
-    p.lead, header ~ * {
-      display: block !important;
-    }
-
-    header ~ nav {
-      display: flex;
-    }
-  } */
 
 }
