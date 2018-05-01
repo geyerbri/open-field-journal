@@ -119,7 +119,7 @@ $avatar-size-narrow: 50px;
     width:  $sidebar-width;
 	
 	.header {
-	  width: $sidebar-width - $padding-h;
+	  width: calc($sidebar-width - $padding-h);
 	}
 	
     .site-title {
