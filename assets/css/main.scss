@@ -31,6 +31,10 @@ $avatar-size-narrow: 50px;
   clear: both;
 }
 
+.cc-license {
+  text-align: center;
+}
+
 /* from eduardoboucas.github.io */
 .comment {
 	margin-bottom: 80px;
@@ -92,6 +96,7 @@ $avatar-size-narrow: 50px;
   /* from eduardoboucas.github.io */
   .cc-license {
     font-size: .64rem;
+	text-align: left;
   }
 
   .comment-content-wrapper {
