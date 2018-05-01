@@ -2,10 +2,6 @@
 # Use a comment to ensure Jekyll reads the file to be transformed into CSS later
 # only main files contain this front matter, not partials.
 ---
-
-.content h1 	{
-	font-size: 3rem !important;
-}
 	
 textarea[type="text"] {
   border-radius: 30px !important;
@@ -117,4 +113,24 @@ $avatar-size-narrow: 50px;
 	top: 0;
 	left: 0;
   }
+  
+  /* reproduced from hydeout */  
+  #sidebar {
+    .site-title {
+      font-size: 3rem;
+	  display: block;
+
+      a { color: white; }
+      .back-arrow { display: none; }
+    }
+
+    p.lead, header ~ * {
+      display: block;
+    }
+
+    header ~ nav {
+      display: flex;
+    }
+  }
+
 }
