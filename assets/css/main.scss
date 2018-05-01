@@ -3,7 +3,7 @@
 # only main files contain this front matter, not partials.
 ---
 
-.centered h1 	{
+.content h1 	{
 	font-size: 3rem !important;
 }
 	
@@ -93,8 +93,8 @@ $avatar-size-narrow: 50px;
   #centered {
     position: absolute;
 	top: 50%;
-	-ms-transform: translate(inherit, -50%);
-	transform: translate(inherit, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
 	overflow: auto;
   }
   
