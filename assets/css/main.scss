@@ -3,6 +3,10 @@
 # only main files contain this front matter, not partials.
 ---
 
+.container h1 	{
+  font-size: 3rem !important;
+}
+
 figure {
   margin: 0 !important;
 }	
