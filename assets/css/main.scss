@@ -87,7 +87,7 @@ $avatar-size-narrow: 50px;
   } 
   
   #centered {
-    width: calc($sidebar-width - $section-spacing);
+    width: $sidebar-width - $section-spacing;
     position: absolute;
 	top: 50%;
 	-ms-transform: translate(0, -50%);
