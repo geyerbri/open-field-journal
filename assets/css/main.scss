@@ -115,7 +115,8 @@ $avatar-size-narrow: 50px;
 
   .comment-avatar-wrapper {
 	width: $avatar-size;
-	float: left;
+	top: 0;
+	left: 0;
   }
   
   .comment-body {
