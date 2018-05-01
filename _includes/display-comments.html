@@ -1,6 +1,6 @@
 <div class="indent">
 	<div class="comment-avatar-wrapper">
-		<img class="comment__avatar" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=100">
+		<img class="comment-avatar" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=100">
 	</div>
 	<h3 class="comment-author">
 		{% if (include.url) and (include.url != '') %}
@@ -19,6 +19,7 @@
 		| {{ include.name }}'s <a rel="nofollow" href="https://github.com/{{ include.github }}" target="_blank">GitHub account</a>
 		{% endif %}
 	</p>
+	<div style="clear:both">
 	<div class="comment-body">
 		{{ include.message | kramdown }}
 	</div>
