@@ -48,7 +48,7 @@ $avatar-size-narrow: 50px;
 }
 
 .comment-content-wrapper {
-  padding-left: 20px;
+  padding-left: $avatar-size-narrow + 20px;
 }
 
 .comment-date {
@@ -58,7 +58,8 @@ $avatar-size-narrow: 50px;
 
 .comment-avatar-wrapper {
   width: $avatar-size-narrow;
-  float: left;
+  top: 0;
+  left: 0;
 }
 
 .comment-avatar {
@@ -104,7 +105,7 @@ $avatar-size-narrow: 50px;
 
   /* from eduardoboucas.github.io */
   .comment-content-wrapper {
-	padding-left: 20px;
+	padding-left: $avatar-size + 20px;
   }
 
   .comment-date {
@@ -114,7 +115,8 @@ $avatar-size-narrow: 50px;
 
   .comment-avatar-wrapper {
 	width: $avatar-size;
-	float: left;
+	top: 0;
+	left: 0;
   }
   
   .comment-body {
