@@ -81,20 +81,6 @@ $avatar-size-narrow: 50px;
 	clear: none;
   }
   
-  #footer {
-    position: absolute;
-	bottom: 3px;
-  } 
-  
-  #centered {
-    width: $sidebar-width - $section-spacing;
-    position: absolute;
-	top: 50%;
-	-ms-transform: translate(0, -50%);
-	transform: translate(0, -50%);
-	overflow: auto;
-  }
-  
   .header p {
     margin-bottom: 2rem !important;
   }
@@ -119,4 +105,19 @@ $avatar-size-narrow: 50px;
 	left: 0;
   }
 
+  @media (min-height: 680px) {
+    #footer {
+      position: absolute;
+	  bottom: 3px;
+    } 
+  
+    #centered {
+      width: $sidebar-width - $section-spacing;
+      position: absolute;
+	  top: 50%;
+	  -ms-transform: translate(0, -50%);
+	  transform: translate(0, -50%);
+	  overflow: auto;
+    }
+  }
 }
