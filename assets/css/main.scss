@@ -49,6 +49,8 @@ $avatar-size-narrow: 50px;
 
 .comment-content-wrapper {
   padding-left: $avatar-size-narrow + 20px;
+  top: 0;
+  left: 0;
 }
 
 .comment-date {
@@ -106,6 +108,8 @@ $avatar-size-narrow: 50px;
   /* from eduardoboucas.github.io */
   .comment-content-wrapper {
 	padding-left: $avatar-size + 20px;
+	top: 0;
+	left: 0;
   }
 
   .comment-date {
