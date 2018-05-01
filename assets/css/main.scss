@@ -29,11 +29,12 @@ $avatar-size-narrow: 50px;
   margin-left: auto;
   margin-right: auto;
   clear: both;
+  
+  p {
+    text-align: center;
+  }
 }
 
-.cc-license {
-  text-align: center;
-}
 
 /* from eduardoboucas.github.io */
 .comment {
