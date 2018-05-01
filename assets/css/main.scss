@@ -132,7 +132,7 @@ $avatar-size-narrow: 50px;
 
     p.lead, header ~ * {
       display: block !important;
-  	  width: $sidebar-width - 40px;
+  	  width: calc($sidebar-width - $padding-h);
 
     }
 
