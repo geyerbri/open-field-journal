@@ -117,15 +117,15 @@ $avatar-size-narrow: 50px;
   /* reproduced from hydeout */  
   #sidebar {
     .site-title {
-      font-size: 3rem;
-	  display: block;
+      font-size: 3rem !important;
+	  display: block !important;
 
       a { color: white; }
       .back-arrow { display: none; }
     }
 
     p.lead, header ~ * {
-      display: block;
+      display: block !important;
     }
 
     header ~ nav {
