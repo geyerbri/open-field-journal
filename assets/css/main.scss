@@ -116,6 +116,8 @@ $avatar-size-narrow: 50px;
   
   /* reproduced from hydeout */  
   #sidebar {
+    width:  $sidebar-width;
+	
     .site-title {
       font-size: 3rem !important;
 	  display: block !important;
