@@ -2,7 +2,6 @@
 layout: page
 title: About Brian
 sidebar_link: true
-order: 0
 ---
 
 <p class="message">
