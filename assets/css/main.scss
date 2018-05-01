@@ -34,8 +34,11 @@ $avatar-size-narrow: 50px;
 .cc-license {
   text-align: center;
   margin-bottom: .5rem;
-  font-size: small;
 }
+
+.cc-license-text (
+  font-size: small;
+)
 
 /* from eduardoboucas.github.io */
 .comment {
