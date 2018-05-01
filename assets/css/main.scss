@@ -85,10 +85,21 @@ $avatar-size-narrow: 50px;
 	clear: none;
   }
   
- /* #footer {
+  #footer {
     position: absolute;
 	bottom: 3px;
-  } */
+  } 
+  
+  #centered {
+    position: absolute;
+	top: 50%;
+	-ms-transform: translate(inherit, -50%);
+	transform: translate(inherit, -50%);
+  }
+  
+  header {
+    Margin-top: calc()
+  }
 
   /* from eduardoboucas.github.io */
   .cc-license {
