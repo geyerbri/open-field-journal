@@ -87,6 +87,7 @@ $avatar-size-narrow: 50px;
   } 
   
   #centered {
+    width: $sidebar-width;
     position: absolute;
 	top: 50%;
 	-ms-transform: translate(0, -50%);
@@ -116,12 +117,7 @@ $avatar-size-narrow: 50px;
   
   /* reproduced from hydeout */  
   #sidebar {
-    width:  $sidebar-width;
-	
-	.header {
-	  width: $sidebar-width - 1.25rem;
-	}
-	
+		
     .site-title {
       font-size: 3rem !important;
 	  display: block !important;
@@ -132,8 +128,6 @@ $avatar-size-narrow: 50px;
 
     p.lead, header ~ * {
       display: block !important;
-  	  width: $sidebar-width;
-
     }
 
     header ~ nav {
