@@ -119,7 +119,7 @@ $avatar-size-narrow: 50px;
     width:  $sidebar-width;
 	
 	.header {
-	  width: calc($sidebar-width - $padding-h);
+	  width: calc($sidebar-width - 40px);
 	}
 	
     .site-title {
@@ -132,7 +132,7 @@ $avatar-size-narrow: 50px;
 
     p.lead, header ~ * {
       display: block !important;
-  	  width: calc($sidebar-width - $padding-h);
+  	  width: calc($sidebar-width - 40px);
 
     }
 
