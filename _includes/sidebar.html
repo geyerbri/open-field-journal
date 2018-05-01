@@ -10,8 +10,12 @@
     </{% if page.title == "Home" %}h1{% else %}div{% endif %}>
     <p class="lead">{{ site.description }}</p>
   </header>
+  <div id="nav-links">
   {% include sidebar-nav-links.html %}
-
+  </div>
+  
+  <div id="footer">
   {% include sidebar-icon-links.html %}
   {% include copyright.html %}
+  </div>
 </div>
