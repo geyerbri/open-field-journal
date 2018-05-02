@@ -17,7 +17,7 @@ Using this website I intend to contribute to the open science research movement.
 
 ## Technical Details
 
-This site is hosted by [GitHub Pages](https://pages.github.com){:target="_blank"}, uses a custom domain provided by [Matrix](http://www.matrix.msu.edu){:target="_blank"} at MSU as a part of the CHI Fellows program, and built using [Jekyll], a headless content management system. I am using a moderately-customized version of [Hydeout](https://fongandrew.github.io/hydeout){:target="_blank"}, a Jekyll theme developed by [Andrew Fong](https://www.andrewfong.com/){:target="_blank"}. Finally, I'm using a static website commenting system - designed for Github Pages-hosted sites - called [Staticman](https://staticman.net){:target="_blank"}, developed by [Eduardo Bouças](https://eduardoboucas.com){:target="_blank"}.
+This site is hosted by [GitHub Pages](https://pages.github.com){:target="_blank"}, uses a custom domain provided by [Matrix](http://www.matrix.msu.edu){:target="_blank"} at MSU as a part of the CHI Fellows program, and built using [Jekyll], a headless content management system. I am using a moderately-customized version of [Hydeout](https://fongandrew.github.io/hydeout){:target="_blank"}, a Jekyll theme developed by [Andrew Fong](https://www.andrewfong.com/){:target="_blank"}. Finally, I'm using a static website commenting system - designed for Github Pages-hosted sites - called [Staticman](https://staticman.net){:target="_blank"} and developed by [Eduardo Bouças](https://eduardoboucas.com){:target="_blank"}, with comment profile images provided through [Gravatar](https://gravatar.com){:target="_blank"}.
 
 ## Past projects
 
