@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<header>
-  <h1 class="page-title">{{ page.title }}</h1>
-</header>
-<br>
 <div class="content">
+  <header>
+    <h1 class="page-title">{{ page.title }}</h1>
+  </header>
+  <br>
   {% include pagination-newer.html %}
 
   {{ content }}
