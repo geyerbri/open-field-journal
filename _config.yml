@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            'No Mud Huts'
 tagline:          'An Open Field Journal'
-description:      'an open anthropological journal about Kenya&#39;s tech industry'
+description:      'an open anthropological research journal about Kenya&#39;s tech industry'
 url:          	  http://nomudhuts.matrix.msu.edu
 timezone:         Africa/Nairobi
 baseurl:          # the optional subpath of your site, e.g. "/blog"
