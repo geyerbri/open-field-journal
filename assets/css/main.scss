@@ -20,12 +20,12 @@ textarea[type="text"] {
   padding: 35px;
 }
 
-img.left {
+img.left, figure.left {
   float: left;
   margin-right: 2rem;
 }
 
-img.right {
+img.right, figure.right {
   float: right;
   margin-left: 2rem;
 }
