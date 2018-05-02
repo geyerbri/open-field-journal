@@ -187,22 +187,22 @@ body {
     padding: $section-spacing * 2;
     height: 100vh;
 
-    > header {
-      color: inherit;
-      margin: 0;
-      h1, h2 {
-        color: inherit;
-
-        &:last-child {
-          margin-bottom: $heading-spacing;
-        }
-      }
-    }
-
     > * {
       max-width: 40rem;
       padding: 0;
 	  margin: auto;
+	  
+	  > header {
+        color: inherit;
+        margin: 0;
+        h1, h2 {
+          color: inherit;
+
+          &:last-child {
+            margin-bottom: $heading-spacing;
+          }
+        }
+      }
     }
   }
 }
