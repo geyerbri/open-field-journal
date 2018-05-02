@@ -11,4 +11,12 @@ Prior to pursuing my graduate studies I earned B.A.s in music and in anthropolog
 
 ## About the project
 
+I created this site as a part of MSU anthropology department's [Cultural Heritage Informatics Fellowship](http://chi.anthropology.msu.edu), an initiative focused upon fostering interdisciplinary scholarly collaboration regarding digital cultural heritage, broadly defined. The fellowship is offered as a means of support for those graduate students who are interested in cultivating their knowledge of methodological skills needed for applying digital technologies to cultural heritage topics.
+
 Using this website I intend to contribute to the open science research movement. I am about to complete my comprehensive exams and will shortly be moving to Kenya to undergo a year-long data collection period. Because of limitations regarding participant confidentiality, I will _not_ be publishing all of my field notes and collected data, but instead will be working to write preliminary analyses of those notes and data. I hope that this site will help to shine light on the processes involved in "doing anthropology" for those who are interested. It is my hope that this site is viewed favorably and intently by those professionals with whom I am honored to conduct research in Kenya, but others who may be interested in what exactly it is anthropologists do and how we - some of us, at least - think.
+
+## Past projects
+
+During my previous times as a CHI Fellow, I created two other projects. The first from 2014-15 was [Kenya-Tweet](http://kenya-tweet.matrix.msu.edu): (Almost) Real-Time Geospatial Tweet Mapping, which I built as a critique of the ways in which publicly available data provided by Twitter users may be used to track them over time. The project only ever displays the last 20 tweets geolocated roughly to Kenya.
+
+The second project I created, in 2015-16, was [Remnants of Slavery](http://remnantsofslavery.matrix.msu.edu), which was meant to display 3D object files being produced by Institut Fondamental d'Afrique Noire (IFAN) of the archaeological collection from Gorée Island off the coast of Senegal. The HTML/Javascript-based site provides a few different views of each 3D object available, to highlight the differences between a scanned object's laser-created and photo-imaged surface.
