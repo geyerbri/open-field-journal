@@ -200,7 +200,9 @@ body {
     }
 
     > * {
+      max-width: 40rem;
       padding: 0;
+	  margin: auto;
     }
   }
 }
