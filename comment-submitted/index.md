@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Comment Submitted
-order: 1
 ---
 
 Thank you for submitting a comment. It may take a few minutes to appear, after refreshing your browser.
