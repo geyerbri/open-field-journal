@@ -20,6 +20,16 @@ textarea[type="text"] {
   padding: 35px;
 }
 
+img.left {
+  float: left;
+  margin-right: 2rem;
+}
+
+img.right {
+  float: right;
+  margin-left: 2rem;
+}
+
 @import "hydeout";
 $avatar-size: 100px;
 $avatar-size-narrow: 50px;
