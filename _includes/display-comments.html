@@ -1,4 +1,4 @@
-<div class="comment">
+{% if include.index %}<div class="comment" id="#comment{{ include.index }}">{% endif %}
 	<div class="comment-avatar-wrapper">
 		<img class="comment-avatar" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=100">
 	</div>
