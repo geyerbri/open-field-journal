@@ -16,7 +16,7 @@
 				{% include format-date.html date=include.date time=true %}
 				{% if include.index %}</a>{% endif %}
 			{% endif %}
-			{% if (include.github) %}
+			{% if (include.github) and (include.github != '') %}
 			| {{ include.name }}'s <a rel="nofollow" href="https://github.com/{{ include.github }}" target="_blank">GitHub account</a>
 			{% endif %}
 		</p>
