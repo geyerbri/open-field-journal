@@ -1,4 +1,4 @@
-<div class="comment">
+{% if include.index %}<div class="comment" id="comment{{ include.index }}">{% endif %}
 	<div class="comment-avatar-wrapper">
 		<img class="comment-avatar" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=100">
 	</div>
@@ -16,7 +16,7 @@
 				{% include format-date.html date=include.date time=true %}
 				{% if include.index %}</a>{% endif %}
 			{% endif %}
-			{% if (include.github) %}
+			{% if (include.github) and (include.github != '') %}
 			| {{ include.name }}'s <a rel="nofollow" href="https://github.com/{{ include.github }}" target="_blank">GitHub account</a>
 			{% endif %}
 		</p>
