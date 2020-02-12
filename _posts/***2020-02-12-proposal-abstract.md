@@ -2,10 +2,9 @@
 layout: post
 title: Proposal Defense: "Intersectional Identity and the Development of Kenya's Tech Sector"
 excerpt_separator: "<!--more-->"
-date: 2020-02-11
+date: 2020-02-12
 disable_comments: false
 ---
-
 Welcome all! I've been away from this open journal since I launched it a couple years ago, trying to get through all the things an anthropology grad student has to do to reach the point where they can conduct their data collection. That has included applying for funding; I have been fortunate enough to [have been awarded](http://anthropology.msu.edu/2019/10/04/phd-student-brian-geyer-receives-fulbright-hays-ddra/) a Fulbright-Hays Doctoral Dissertation Research Abroad Fellowship from the U.S. Department of Education to conduct a years' worth of data collection. Assuming my upcoming proposal defense goes smoothly, I will be departing for Nairobi on March 16th.
 <!--More-->
 In the mean-time, I _do_ have my [upcoming defense](https://anthropology.msu.edu/event/brian-geyer-dissertation-proposal-defense/) to worry about, which is where my attention rests for the time being. That link has the date, time, and location for anyone in the Lansing, MI area who would like to attend (the public portion is the first hour or so). And here is my proposal abstract:
