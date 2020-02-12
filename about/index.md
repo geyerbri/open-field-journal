@@ -9,7 +9,7 @@ order: 1
 
 Prior to pursuing my graduate studies I earned B.A.s in music and in anthropology at [Washington State University](https://wsu.edu){:target="_blank"}. Upon completing undergrad, I joined the U.S. Peace Corps and served two years as a public health volunteer in Kenya, where I began to learn first-hand about international development. For those two years I lived in a rural community on the edge of the Maasai Mara National Reserve, where I am known as Lemayian Ole Ting'isha. Though during my service I focused upon learning how to speak Maa, I began to develop an ear for understanding Kiswahili as well. Since completing my service and enrolling at MSU I have further progressed in my ability to write and speak in Kiswahili.
 
-## About the project
+## About this Open Journa
 
 I created this site as a part of MSU anthropology department's [Cultural Heritage Informatics Fellowship](http://chi.anthropology.msu.edu){:target="_blank"}, an initiative focused upon fostering interdisciplinary scholarly collaboration regarding digital cultural heritage, broadly defined. The fellowship is offered as a means of support for those graduate students who are interested in cultivating their knowledge of methodological skills needed for applying digital technologies to cultural heritage topics.
 
