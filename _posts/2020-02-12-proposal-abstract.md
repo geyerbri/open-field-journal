@@ -1,6 +1,6 @@
 ---
 layout: post
-title: """Proposal Defense: "Intersectional Identity and the Development of Kenya's Tech Sector""""
+title: ""Proposal Defense: "Intersectional Identity and the Development of Kenya's Tech Sector"""
 excerpt_separator: "<!--more-->"
 date: 2020-02-12
 disable_comments: false
