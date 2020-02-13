@@ -1,4 +1,5 @@
 # No Mud Huts
+http://nomudhuts.matrix.msu.edu
 This is an open anthropological field journal. For now, the README for the site from which I have borrowed this Jekyll theme is below.
 
 ## Hydeout
